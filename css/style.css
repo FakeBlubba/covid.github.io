@@ -108,7 +108,7 @@ body {
     width: 225px;
     height: 55.5px;
     padding: 25px 20px;
-    margin: 15px 12.5px;
+    margin: -25px 12.5px 15px 12.5px;
     font-size: 22.5px;
     filter: sepia(30%);
     transition: .2s;
@@ -182,15 +182,22 @@ body {
 .arrow-slideshow {
     display: flex;
     justify-content: space-between;
-    overflow: auto;
-    cursor: pointer;
-    position: relative;
+    margin-top: -210px;
+    margin-bottom: 210px;
+    width: 960px;
+
 }
 
 .arrow-slideshow .fas {
     text-decoration: none;
     color: #1a1a1a;
-    font-size: 35px;
+    font-size: 75px;
+    cursor: pointer;
+}
+
+.arrow-left .fas{
+    padding-right: 300px;
+    margin-right: 400px;
 }
 
 .first-page-container h1 {
@@ -206,10 +213,11 @@ body {
 
 .first-page-img {
     filter: sepia(50%);
-    border: 1.2px solid #141414;
-    border-radius: 1px;
+    border: 4px double #1a1a1a;
+    border-radius: 2px;
     max-height: 320px;
     width: 585px;
+
 }
 
 .first-page-desc {
@@ -312,15 +320,27 @@ body {
     padding-left: 25px;
 }
 
-.contatore table th {
-    border-right: 2.5px solid #1a1a1a;
+.contatore table tr th {
     filter: sepia(25%);
     font-family: "Roboto Slab", serif;
     font-size: 25px;
+    border: 2.5px solid #1a1a1a;
     
 }
 
-.positive {
+table tr {
+    
+}
+.contatore table tr td {
+    font-family: "Roboto Slab", serif;
+    font-size: 22px;
+    padding: 0 5px;
+    background-color: #d5d5d5;
+    border: 2.5px solid #1a1a1a;
+}
+
+.positive b {
+    color: #00c610;
 }
 
 .decease {
@@ -336,22 +356,30 @@ body {
     color: #d3b67c;
     background-color: #1a1a1a;
 }
+
+
 footer > .down-navbar-container {
     margin: 0;
+    background-color: #d1a03e;
 }
 
 .footer-container {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     margin-bottom: 25px;
+    
 }
 
 .footer-container > div {
     max-width: 400px;
     border-right: 2px solid #141414;
     padding: 0 25px;
+
 }
 
+.footer-container > div:last-child {
+    border: none;
+}
 .footer-container > div > h4 {
     font-family: "Cadeux", serif;
     font-size: 18px;
