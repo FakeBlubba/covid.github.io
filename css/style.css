@@ -137,7 +137,7 @@ body {
 }
 
 .warning-message:first-child {
-    background-color: #aa0002;
+    background-color: #e40004;
     border: 4px solid #160000;
     color: #160000;
 }
@@ -314,8 +314,28 @@ body {
 
 .contatore table th {
     border-right: 2.5px solid #1a1a1a;
+    filter: sepia(25%);
+    font-family: "Roboto Slab", serif;
+    font-size: 25px;
+    
 }
 
+.positive {
+}
+
+.decease {
+    color: #d3b67c;
+    background-color: black;
+}
+
+.recovered {
+    background-color: #00c610;
+}
+
+.total {
+    color: #d3b67c;
+    background-color: #1a1a1a;
+}
 footer > .down-navbar-container {
     margin: 0;
 }
