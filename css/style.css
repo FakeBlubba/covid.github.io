@@ -150,46 +150,44 @@ body {
 
 .warning-message:nth-child(2) {
     background-color: #d3df00;
-    border: 4px solid #4b4f00;
+    border: 4px solid #303300;
     color: #303300;
 }
 
 .warning-message:nth-child(2) .fas{
-    color: #4b4f00;
+    color: #303300;
 }
 
 .warning-message:nth-child(3) {
     background-color: #00c610;
-    border: 4px solid #004f00;
-    color: #004f00;
+    border: 4px solid #003800;
+    color: #003800;
 }
 
 .warning-message:nth-child(3) .fas{
-    color: #004f00;
+    color: #003800;
 }
 
 .warning-message:nth-child(4) {
     background-color: #d6c49f;
-    border: 4px solid #4b4b4b;
-    color: #4b4b4b;
+    border: 4px solid #222;
+    color: #222;
     line-height: 22.5px;
     font-size: 20px;
 
 }
 
 .warning-message:nth-child(4) .fas{
-    color: #4b4b4b;
+    color: #222;
 }
 
 .arrow-slideshow {
     display: flex;
     justify-content: space-between;
+    display: none;
     
 }
 
-.arrow-slideshow .fas {
-
-}
 
 .prev, .next {
     font-size: 50px;
@@ -230,10 +228,6 @@ body {
 
 .first-page-desc a {
     text-decoration: none;
-}
-
-.warning-message {
-
 }
 
 .features {
@@ -476,15 +470,14 @@ section:last-child {
     }
 
     .section-title {
-        font-size: 30px;
-        padding-left: 10px;
+        font-size: 27.5px;
         width: 768px;
     }
 
     .first-page-container > h1 {
         font-size: 25px;
-        padding: 0 30px;
         width: 768px;
+        text-align: center;
     }
 
     .first-page-desc-container {
@@ -499,20 +492,31 @@ section:last-child {
     }
 
     .first-page-desc {
-        max-width: 750px;
+        max-width: 720px;
         margin: 12.5px auto;
+        line-height: 27.5px;
+    }
+
+    .features {
+        max-width: 750px;
+        margin: 0 auto;
+    }
+
+    .insert-title {
+        font-size: 13px;
     }
 
     .warning-container {
         flex-wrap: wrap;
         max-width: 768px;
+        margin: 10px 10px;
     }
 
     .warning-message {
         display: inline-block;
-        margin: 10px 0 0 10px;
+        margin: 25px 0 0 25px;
         flex-grow: 1;
-        height: 100px;
+        height: 70px;
     }
 
 }
