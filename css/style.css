@@ -109,7 +109,7 @@ body {
     min-width: 180px;
     height: 55.5px;
     padding: 25px 20px;
-    margin: -25px 12.5px 15px 12.5px;
+    margin: 0px 12.5px 15px 12.5px;
     font-size: 22.5px;
     filter: sepia(30%);
     transition: .2s;
