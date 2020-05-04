@@ -524,13 +524,15 @@ a:active {
 .footer-container > div {
     max-width: 400px;
     padding: 0 25px;
-
+    border: 15px dashed #ffeac1;
+    background-color: #d6c49f;
+    margin: 15px;
 }
 
 .footer-container > div:nth-child(2) {
-    border-top: 10px dashed #ffeac1;
-    border-left: 10px dashed #ffeac1;
-    border-right: 10px dashed #ffeac1;
+    border-top: 15px dashed #ffeac1;
+    border-left: 15px dashed #ffeac1;
+    border-right: 15px dashed #ffeac1;
     background-color: #d6c49f;
     border-radius: 1.5px;
     width: 290px;
@@ -538,11 +540,11 @@ a:active {
 
 
 .footer-container > div:last-child {
-    border: none;
     padding-right: 0;
     margin-left: -15px;
     white-space: nowrap;
     margin-right: none;
+    padding-right: 25px;
 }
 
 .footer-container > div  h4 {
@@ -589,7 +591,6 @@ footer li {
     text-decoration: none;
     
 }
-
 
 #back-to-the-top .fa-arrow-alt-circle-up {
     transition: .5s;
