@@ -560,9 +560,11 @@ footer {
 
 .down-footer-container {
     display: flex;
-    justify-content: space-around;
-    padding-top: 5px;
+    justify-content: space-between;
+    padding-top: 25px;
     margin-bottom: -30px;
+    margin-left: 30px;
+    margin-right: 30px;
     padding-bottom: 15px;
     border-top: 3.5px solid #1a1a1a;
 }
@@ -743,9 +745,11 @@ section:last-child {
         border-left: 
 
     }
-
-    .websites {
-
+.footer-container > div:first-child {
+    width: 270px;
+}
+    .footer-page-desc {
+        max-width: 250px;
     }
 
 }
