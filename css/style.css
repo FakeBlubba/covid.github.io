@@ -80,7 +80,6 @@ transition: 1s;
     
 }
 
-
 .lateral-navbar-text {
     font-family: "Roboto Slab", sans-serif;
     font-size: 22.5px;
@@ -309,7 +308,7 @@ transition: .5s;
 
 .first-page-desc-container {
     display: flex; 
-    padding: 0 25px;
+    padding: 0 63.5px;
 }
 
 .first-page-img {
@@ -512,30 +511,30 @@ a:active {
     color: #550001;
 }
 
+footer {
+    border-top: 20px dashed #d8cbb1;
+    
+}
+
 .footer-container {
     display: flex;
     justify-content: space-evenly;
     margin-bottom: 25px;
-    border-bottom: 2.5px solid #1a1a1a;
-    border-top: 20px dashed #d8cbb1;
     padding-top: 40px;
 }
 
 .footer-container > div {
     max-width: 400px;
     padding: 0 25px;
-    border: 15px dashed #ffeac1;
-    background-color: #d6c49f;
     margin: 15px;
+
 }
 
 .footer-container > div:nth-child(2) {
-    border-top: 15px dashed #ffeac1;
-    border-left: 15px dashed #ffeac1;
-    border-right: 15px dashed #ffeac1;
-    background-color: #d6c49f;
     border-radius: 1.5px;
     width: 290px;
+    border-left: 3.5px solid #1a1a1a;
+    border-right: 3.5px solid #1a1a1a;
 }
 
 
@@ -565,6 +564,7 @@ a:active {
     padding-top: 5px;
     margin-bottom: -30px;
     padding-bottom: 15px;
+    border-top: 3.5px solid #1a1a1a;
 }
 
 #foot-logo {
@@ -652,7 +652,7 @@ section:last-child {
 
     .first-page-desc-container {
         display: block;
-        margin: 0 62.5px;
+        margin: 0 32.5px;
     }
 
     .first-page-img {
@@ -670,6 +670,22 @@ section:last-child {
     }
 
 
+    .footer-container > div:nth-child(1) {
+        border-bottom: 2.5px solid #1a1a1a;
+        margin-right: -30px;
+    }
+
+
+.footer-container > div:nth-child(2){
+    border-right: 0;
+    margin-left: -30px;
+    border-bottom: 2.5px solid #1a1a1a;
+}
+
+.footer-container > div:nth-child(3) {
+    margin-left: 285px;
+}
+
     .insert {
         width: 320px;
         height: 245px;
@@ -678,6 +694,11 @@ section:last-child {
     #first-pointer {
         margin: -20px 0;
     }
+
+    #second-pointer {
+        margin: 20px 0;
+    }
+
 
     .shop {
         width:375px;
