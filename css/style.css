@@ -348,7 +348,7 @@ transition: .5s;
     margin: 0 10px 0 0;
     border: 3px dashed #1a1a1a;
     cursor: pointer;
-    background-color: #d6c49f;
+    background-color: #ffeac1;
     transition: .5s;
     -webkit-box-shadow: inset 0px 0px 16px 0px rgba(0,0,0,0.75);
     -moz-box-shadow: inset 0px 0px 16px 0px rgba(0,0,0,0.75);
@@ -745,8 +745,8 @@ section:last-child {
         border-left: 
 
     }
-.footer-container > div:first-child {
-    width: 270px;
+    .footer-container > div:first-child {
+     width: 270px;
 }
     .footer-page-desc {
         max-width: 250px;
