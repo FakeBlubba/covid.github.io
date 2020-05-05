@@ -900,6 +900,8 @@ section:last-child {
   .first-page-desc-container {
     display: block;
     padding: 0 15px;
+    width: 75%;
+    margin: 0 auto;
   }
 
   .first-page-img {
