@@ -327,7 +327,7 @@ transition: .5s;
     max-width: 420px;
     max-height: 320px;
     text-align: justify;
-    margin-bottom: 15px;
+    margin-top: 0;
 }
 
 .first-page-desc a {
@@ -509,6 +509,16 @@ a:active {
     color: #550001;
 }
 
+.second-desc {
+    margin: 20px 0;
+    font-size: 17.5px;
+    font-family: "Roboto", serif;
+    letter-spacing: 1.5px;
+    text-align: justify;
+
+}
+
+
 footer {
     
 }
@@ -608,10 +618,6 @@ section:last-child {
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
 
-    .navbar li:hover > a > .fa-hand-pointer {
-        
-    }
-
 
     .lateral-box-container {
       max-width: 125px;
@@ -651,7 +657,8 @@ section:last-child {
 
     .first-page-desc-container {
         display: block;
-        margin: 0 32.5px;
+        padding: 0 85px;
+
     }
 
     .first-page-img {
@@ -661,6 +668,10 @@ section:last-child {
 
     .first-page-desc {
         line-height: 27.5px;
+        max-height: max-content;
+        max-width: 620px;
+        margin: 0 -10px;
+        padding-right: 12.5px;
     }
 
     .features {
@@ -753,15 +764,18 @@ section:last-child {
 
 @media screen and (min-width: 320px) and (max-width: 768px) { 
 
+
+    .down-navbar-container {
+        display: none;
+    }
     .container {
         min-width: 320px;
-        max-width: 768px;
+        width: 97.5%;
+        margin: 0 auto;
     }
 
     .lateral-box-container {
-        max-width: 80px;
-        height: 57.5px;
-        min-width: 40px;
+        display: none;
 
       }
   
@@ -781,16 +795,142 @@ section:last-child {
       .warning-container {
         flex-wrap: wrap;
         min-width: 320px;
+        margin-bottom: 10px;
 
+    }
+
+    .small-container {
+        padding: 0;
+    }
+
+    .minor-title {
+        font-size: 27px;
+        margin: 17.5px auto;
+        padding: 0 auto;
+        width: 250px;
     }
 
     .warning-message {
         flex-direction: column
         margin: 10px 0 0 0;
         flex-grow: 1;
-        height: 75px;
-        width: 150px;
+        height: 50px;
+        width: 125px;
     }
+
+        .section-title {
+            font-size: 28px;
+        }
+
+        .first-page-container {
+
+        }
+
+        .first-page-container h1 {
+            font-size: 20px;
+            text-align: center;
+        }
+        .first-page-desc-container {
+            display: block;
+            padding: 0 15px;
+        }
+
+        .first-page-img {
+            max-width: 100%;
+            margin: 0 auto;
+            margin-left: -4.5px;
+        }
+
+        .first-page-desc {
+            padding-top: 15px;
+            line-height: 22px;
+            max-height: max-content;
+            max-width: 100%;
+            margin: 0 auto;
+        }
+
+        .prev span, .next span {
+            display: none;
+        }
+
+        .features {
+            flex-direction: column;
+        }
+
+        .insert-section .minor-title {
+            white-space: nowrap;
+            width: 280px;
+        }
+
+        .insert {
+            margin: 20px auto;
+            max-width: 90%;
+        }
+
+        .insert-title {
+            font-size: 12px;
+        }
+
+        .insert-title h2 {
+            margin-left: 0;
+            text-align: center;
+        }
+
+
+        .contatore caption {
+            max-width: 350px;
+            font-size: 10px;
+            padding-left: -15px;
+        }
+
+        .second-desc {
+            margin: 0 20px;
+        }
+
+        .contatore table {
+            max-width: 350px;
+            margin: 15px auto;
+        }
+
+        .footer-container {
+            flex-direction: column;
+            width: 100%;
+        }
+
+        .footer-container div {
+            margin: 0 auto;
+            border-top: 2px solid #1a1a1a;
+            padding-top: 15px;
+        }
+
+        .footer-container div:nth-child(2) {
+            border-left: 0;
+            border-right: 0;
+        }
+
+        .footer-container div:nth-child(3) .minor-title {
+            margin: 0 15px;
+        }
+        .footer-container div:nth-child(3) {
+           margin: 0 auto;
+          
+        }
+
+        .footer-container div:first-child {
+            border-top: 0;
+            margin-bottom: 15px;
+        }
+        #foot-logo {
+            max-height: 50px;
+        }
+
+        #back-to-the-top {
+            margin-top: -17.5px;
+        }
+
+        #back-to-the-top > a {
+            font-size: 17.5px;
+        }
 
 
 
