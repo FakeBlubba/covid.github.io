@@ -92,7 +92,7 @@
       Protezione Civile riguardo al COVID-19.
     </p>
     <table>
-    <caption><i class="fas fa-head-side-mask"></i> Contatore infetti <i>[25/05/2015]</i></caption>
+    <caption><i class="fas fa-head-side-mask"></i> <span>Contatore infetti <i>[25/05/2015]</i></span></caption>
       <tr>
         <th class="positive">Positivi</th>
         <td class="positive"><b class="plus">+</b> 2500</td>
@@ -174,3 +174,15 @@
 </footer>
   </body>
 </html>
+<script>var docWidth = document.documentElement.offsetWidth;
+
+[].forEach.call(
+  document.querySelectorAll('*'),
+  function(el) {
+    if (el.offsetWidth > docWidth) {
+      console.log(el);
+    }
+  }
+);
+
+</script>
