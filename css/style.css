@@ -2,7 +2,7 @@
 
 body {
   margin: 0;
-  background-color: #C1D6FF;
+  background-color: #e0f0ff;
 }
 
 
@@ -108,7 +108,7 @@ body {
 }
 
 .container {
-  background-color: #C1D6FF;
+  background-color: #e0f0ff;
   margin: 0 auto;
   width: 950px;
 }
@@ -507,7 +507,7 @@ b {
 
 footer {
   background-color: #f3dbab;
-  border-top: 20px dashed #C1D6FF;
+  border-top: 20px dashed #e0f0ff;
   padding-bottom: 30px;
 }
 
@@ -935,6 +935,7 @@ section:last-child {
     max-height: max-content;
     max-width: 100%;
     margin: 0 auto;
+    text-align: left;
   }
 
   .arrow-slideshow {
