@@ -16,10 +16,19 @@
   <nav class="navbar">
     <ul class="nav-titles">
   <li><div class="lateral-box-container"> <span class="lateral-navbar-text">Assistenza COVID-19</span></div></li>
-  <li><a id="logo" href="index.html">Senexilium</a></li>
-  <li><a href="#accesso"><div class="lateral-box-container"><span class="lateral-navbar-text" >Accesso area personale <i class="far fa-hand-pointer"></i></span></div></a></li>
+  <li><div class="box-logo"><a id="logo" href="index.html">Senexilium</a></div></li>
+  <li><a id="mobile-login" href="#accesso"><div class="lateral-box-container"><span class="lateral-navbar-text" >Accesso area personale <i class="far fa-hand-pointer"></i></span></div></a></li>
     </ul>
     <div class="down-navbar-container"><span class="down-navbar-text">Tutti i servizi e tutto quello che ti serve sapere per affrontare l'emergenza!</span></div>
+  </nav>
+
+  <nav class="mobile-navbar">
+    <ul class="mobile-navbar-titles">
+      <li><a id="burger-menu" href="#mobile-menu"><i class="fas fa-bars"></i></a></li>
+      <li><a id="logo" href="index.html">Senexilium</a></li>
+      <li><a id="mobile-login" href="#accesso">Login</a></li>
+    </ul>
+
   </nav>
   <div class="container">
     <section><h1 class="section-title"><i class="fas fa-newspaper"></i> News - Le ultime notizie su COVID-19</h1>
@@ -51,7 +60,7 @@
           </a></div>
         </div>
       </div>
-<section id="warning-section"> <div class="small-container"><h2 class="minor-title"> <i class="fas fa-hands-wash"></i>Le norme igeniche del giorno</h2>
+<section id="warning-section"> <div class="small-container"><h2 class="minor-title"> <i class="fas fa-hands-wash"></i>I consigli igenici del giorno</h2>
 <div class="warning-container">
   <div class="warning-message">
     <span><div class="quote-container"></div> Lavarsi spesso le mani. </span> <i class="fas fa-shield-virus"></i>
@@ -174,7 +183,9 @@
 </footer>
   </body>
 </html>
-<script>var docWidth = document.documentElement.offsetWidth;
+<script>
+
+var docWidth = document.documentElement.offsetWidth;
 
 [].forEach.call(
   document.querySelectorAll('*'),
