@@ -367,8 +367,8 @@ margin-top: -10.5px;
   border: 4px solid #1a1a1a;
   max-width: 450px;
   max-height: 300px;
-  width: auto;
-  height: auto;
+  width: 400px;
+  height: max-content;
 
 }
 
@@ -379,7 +379,7 @@ margin-top: -10.5px;
   font-weight: 300;
   margin-left: 25px;
   max-width: 420px;
-  max-height: 320px;
+  max-height: max-content;
   text-align: justify;
   margin-top: 0;
 }
@@ -1037,6 +1037,10 @@ section:last-child {
     padding-left: 0;
   }
 
+  .contatore caption i {
+    font-size: 10px;
+  }
+
   .second-desc {
     margin: 0 20px;
   }
@@ -1061,6 +1065,7 @@ section:last-child {
     font-size: 18.5px;
     width: max-content;
   }
+
 
   .footer-container div:nth-child(2) {
     border-left: 0;
